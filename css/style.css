@@ -359,7 +359,7 @@ nav {
 
 .viewProject:hover .btn-overlay i {
   transform: scale(1);
-  margin: 0 0 0px 10px;
+  margin: 2px 0 0px 10px;
 }
 
 .viewProject:hover button {
