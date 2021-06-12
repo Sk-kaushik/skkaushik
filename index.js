@@ -2,11 +2,7 @@ $(".burger").click(function () {
   $(this).toggleClass("rotate");
   $(".side-navbar").toggleClass("show");
 });
-<<<<<<< HEAD
-$("a").click(function () {
-=======
 $(".side-navbar li a").click(function () {
->>>>>>> responsive
   $(".burger").toggleClass("rotate");
   $(".side-navbar").toggleClass("show");
 });
@@ -65,17 +61,6 @@ $.scrollify({
   scrollSpeed: 1000,
 });
 
-<<<<<<< HEAD
-$(".send-message").click(function () {
-  notifier.show(
-    "Sorry!",
-    "The site is under construction",
-    "",
-    "./notifier-master/dist/img/high_priority-48.png",
-    4000
-  );
-});
-=======
 $(".loader").hide();
 
 $(".send-message").click(function () {
@@ -131,4 +116,3 @@ function resetData() {
   $(".send-message").show();
   $(".btn-overlay").show();
 }
->>>>>>> responsive
