@@ -56,10 +56,10 @@ $(".project-nav li").click(function () {
     .show(400);
 });
 
-$.scrollify({
-  section: "section",
-  scrollSpeed: 1000,
-});
+// $.scrollify({
+//   section: "section",
+//   scrollSpeed: 1000,
+// });
 
 $(".loader").hide();
 
